@@ -43,13 +43,18 @@ class AccountsWidget {
    * метода renderItem()
    * */
   update() {
+    if (User.current){
       Account.list( User.current(), response => {
         this.clear();
+        console.log(response)
         // response.data.map( item => this.renderItem( item ));
+        let i = [];
         for (let key in response) {
-          this.renderItem(response[key]);
+         i.push(response[key]);
         }
+        console.log(i);
       })
+    }   
   }
 
   /**

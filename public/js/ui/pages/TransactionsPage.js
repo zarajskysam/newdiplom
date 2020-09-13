@@ -14,13 +14,14 @@ class TransactionsPage {
     if( !element ) throw new Error('Элемент не найден');
     this.element = element;
     this.registerEvents();
+
   }
 
   /**
    * Вызывает метод render для отрисовки страницы
    * */
-  update() {
-
+  update(options) {
+    this.render( this.lastOptions ?  this.lastOptions : options );
   }
 
   /**
@@ -31,7 +32,7 @@ class TransactionsPage {
    * */
   registerEvents() {
     const removeAccount = this.element.querySelector( '.remove-account' );
-    this.element.addEventListener( 'click', event => this.removeTransaction( eevent.target.closest( '.transaction__remove' )));
+    this.element.addEventListener( 'click', event => this.removeTransaction( event.target.closest( '.transaction__remove' )));
     removeAccount.addEventListener( 'click', this.removeAccount.bind( this ));
   }
 
@@ -44,7 +45,12 @@ class TransactionsPage {
    * для обновления приложения
    * */
   removeAccount() {
-    
+    if ( !this.lastOptions ) return;
+    const result = confirm( 'Вы действительно хотите удалить счёт?' );
+    if ( !result ) return;
+    const data = new FormData();
+    data.id = this.lastOptions.account_id;
+    Account.remove( '', data, () => App.update() );
   }
 
   /**
@@ -53,7 +59,12 @@ class TransactionsPage {
    * По удалению транзакции вызовите метод App.update()
    * */
   removeTransaction( id ) {
-    
+    if (!element) return;
+    const result = confirm('Вы действительно хотите удалить эту транзакцию?');
+    if ( !result ) return;
+    const data = new FormData();
+    data.append( 'id', element.dataset.id );
+    Transaction.remove( '', data, App.update.bind( App ));
   }
 
   /**
@@ -65,15 +76,12 @@ class TransactionsPage {
   render( options ) {
     if (!options) return;
     this.lastOption = options;
-    Account.get(options.account_id, null, (response)=>{
-      for (let key in response) {
-        this.renderTitle(response[key].name);
-      }
+    Account.get(options.account_id, null, (response)=>{ 
+      
     });
     Transaction.list(options, (response)=>{
-      for (let key in response) {
-        this.renderTransactions(response[key].name);
-      }
+      console.log(response);
+      this.renderTransactions(response);
     });
   }
 
@@ -83,14 +91,17 @@ class TransactionsPage {
    * Устанавливает заголовок: «Название счёта»
    * */
   clear() {
-    
+    this.renderTransactions( [] );
+    this.renderTitle('Название счёта');
+    this.lastOptions = null;
   }
 
   /**
    * Устанавливает заголовок в элемент .content-title
    * */
   renderTitle( name ) {
-    
+    this.element.querySelector( '.content-title' ).textContent = name;
+
   }
 
   /**
@@ -98,7 +109,10 @@ class TransactionsPage {
    * в формат «10 марта 2019 г. в 03:20»
    * */
   formatDate( date ) {
-    
+    const inputDate = new Date( date );
+    const DMY = inputDate.toLocaleString( 'ru', { year: 'numeric', month: 'long', day: 'numeric' });
+    const HM = inputDate.toLocaleString( 'ru', { hour: 'numeric', minute: 'numeric' });
+    return `${ DMY } в ${ HM }`;
   }
 
   /**
@@ -134,6 +148,11 @@ class TransactionsPage {
    * используя getTransactionHTML
    * */
   renderTransactions( data ) {
+    if (data) {
+      const content = this.element.querySelector( '.content' );
+      content.innerHTML = '';
+      data.forEach( item => content.insertAdjacentHTML( 'afterbegin', this.getTransactionHTML( item )));
+    }
     
   }
 }

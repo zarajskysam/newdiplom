@@ -20,7 +20,6 @@ const createRequest = (options = {}) => {
                 return options.callback(responsed, responsed.error);
             };
         };
-        return newXHR;
     };
 
  
@@ -33,7 +32,8 @@ const createRequest = (options = {}) => {
         newXHR.withCredentials = true;
         newXHR.open(options.method, options.url, true);
         newXHR.send(formData);
-      
+        return newXHR;
+
     } else {
         let email = options.url + '?';
         for (let key in options.data) {
@@ -42,6 +42,7 @@ const createRequest = (options = {}) => {
         newXHR.withCredentials = true;
         newXHR.open(options.method, email, true);
         newXHR.send();
-        
+        return newXHR;
+
     }
 };

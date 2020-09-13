@@ -20,7 +20,6 @@ class Sidebar {
   static initToggleButton() {
     const body = document.querySelector('body');
     const sidebarButton = document.querySelector('.sidebar-toggle');
-
     sidebarButton.addEventListener('click', ()=>{
       body.classList.toggle('sidebar-open');
       body.classList.toggle('sidebar-collapse');
@@ -35,12 +34,12 @@ class Sidebar {
    * выходу устанавливает App.setState( 'init' )
    * */
   static initAuthLinks() {
-    const registerLink = document.querySelector( '.menu-item_register' );
-    const loginLink = document.querySelector( '.menu-item_login' );
-    const logoutLink = document.querySelector( '.menu-item_logout' );
+    const registerLink = document.querySelector('.menu-item_register');
+    const loginLink = document.querySelector('.menu-item_login');
+    const logoutLink = document.querySelector('.menu-item_logout');
     registerLink.addEventListener( 'click', () => App.getModal( 'register' ).open() );
-    loginLink.addEventListener( 'click', () => App.getModal( 'login' ).open() );
-    logoutLink.addEventListener( 'click', () => User.logout() );
+    loginLink.addEventListener('click', () => App.getModal( 'login' ).open());
+    logoutLink.addEventListener('click', () => User.logout());
   }
 
 }

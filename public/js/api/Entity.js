@@ -12,8 +12,9 @@ class Entity {
 
   static URL = '';
 
-  constructor(data) {
-    this.data = data;
+  constructor(list) {
+    this.list1 = list1;
+    this.get1 = get1;
   }
 
   static list( data, callback = f => f) {
@@ -23,9 +24,9 @@ class Entity {
       method: 'GET',
       responseType: 'json',
       callback: ( response, err ) => {
-        this.data = response.data;
+        this.list1 = response.data;
       }
-   }, callback(this.data));
+   }, callback(this.list1));
   }
 
   /**
@@ -55,10 +56,11 @@ class Entity {
       url: this.URL,
       data: data,
       method: 'GET',
+      
       callback: ( response, err ) => {
-        this.data = response.data;
+        this.get1 = response;
       }
-   }, callback(this.data));
+   }, callback(this.get1));
   }
 
   /**

@@ -22,7 +22,7 @@ class UserWidget {
    * в элемент .user-name устанавливает имя
    * авторизованного пользователя
    * */
-  update() {
+  update() {  
     this.element.querySelector('.user-name').textContent = User.current().name;
   }
 }

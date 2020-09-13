@@ -61,27 +61,41 @@
       "email": "valeriagridneva42@gmail.com",
       "password": "3463456346345",
       "id": "86x184720kev57jz7",
-      "isAuthorized": true
+      "isAuthorized": false
     },
     {
       "name": "ertert",
       "email": "243234@mail.ru",
       "password": "14234234",
       "id": "86x1845lgkev5861h",
-      "isAuthorized": true
+      "isAuthorized": false
     },
     {
       "name": "aaaa",
       "email": "aaaa@aaaa.ru",
       "password": "aaaa4141",
       "id": "86x184d64kevemtzy",
-      "isAuthorized": true
+      "isAuthorized": false
     },
     {
       "name": "aaaaa",
       "email": "aaaaa@aaaa.ru",
       "password": "aaaa4141",
       "id": "86x18471okewiumyt",
+      "isAuthorized": false
+    },
+    {
+      "name": "aaaaaa@aaaa.ru",
+      "email": "aaaaaa@aaaa.ru",
+      "password": "aaaa4141",
+      "id": "86x1846xgkf10jmhe",
+      "isAuthorized": false
+    },
+    {
+      "name": "aa@aa.ru",
+      "email": "aa@aa.ru",
+      "password": "aaaa4141",
+      "id": "86x1848rgkf10l61z",
       "isAuthorized": true
     }
   ],
@@ -275,6 +289,631 @@
       "name": "sdfsdf",
       "user_id": "86x184720kev57jz7",
       "id": "86x18459wkey882fv"
+    },
+    {
+      "name": "Привет",
+      "user_id": "86x184720kev57jz7",
+      "id": "86x184d9kkf0trx0s"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x1845lgkev5861h",
+      "id": "86x184ffokf0tv5by"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184d54kf0vktup"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1846mskf0vmuhv"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848uskf0vn7sz"
+    },
+    {
+      "name": "Вакансии",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1845qskf0w2sr6"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184w4kf0w6be0"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184biwkf0w7547"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184274kf0w7g6p"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184b88kf0w9iyi"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184c58kf0weunn"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847owkf0wexwd"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ag8kf0wf467"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1843m4kf0wfflu"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184backf0wgeau"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184118kf0wgs6f"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1841zokf0whmul"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1846oskf0whz7n"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ch4kf0wiazt"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184bmokf0wiime"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184asgkf0wjorx"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184308kf0wktku"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184a58kf0wlfpb"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ed4kf0wn7k8"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184a18kf0wnh4l"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1841zokf0wohy1"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1849ngkf0wqh3y"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847u0kf0wqw3l"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1849b8kf0wxc0c"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184bfgkf0xhqh8"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ak0kf0xi7is"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184b8okf0xiu0l"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x18451kkf0xj8r3"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1849iokf0xkmws"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ffokf0xqz2t"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184cwwkf0xrubl"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847kckf0xsk2k"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1846ekkf0xu7om"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847iwkf0xvayq"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847mokf0xvukn"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184dwckf0xwfsn"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1846egkf0xy6mp"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1846h8kf0xylsf"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184434kf0xzjh2"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184d9wkf0y2eal"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x18492ckf0y42av"
+    },
+    {
+      "name": "Вакансии",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847g8kf0y4nm6"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184fqkkf0y5l67"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1844dgkf0y5xzy"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184da8kf0y6n4k"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1841bwkf0y79hr"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184pckf0y81s7"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1845bkkf0yazl9"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1845w8kf0ybz45"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184bmskf0yciel"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ab4kf0yf1tj"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x18452gkf0yfhua"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1844v4kf0yh5db"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848mckf0yskos"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184fsckf0ytgco"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1849vgkf0ytqr9"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184bykkf0yuevg"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1844s0kf0yuoil"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184azskf0yvhhn"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ewwkf0yvr4k"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848ygkf0yxhfp"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184c8kkf0yy6xp"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184b08kf0yzc6y"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1849agkf0z090x"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184dfwkf0z0h7f"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x18486okf0z1cgy"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184c4wkf0z8z95"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1846p8kf0zbepm"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847qskf0zbtna"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1849dskf0zc1up"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847s8kf0zcdjv"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184bf8kf0zcw1i"
+    },
+    {
+      "name": "asfasf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184db8kf0zdk4j"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1844d8kf0zdtdm"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848y8kf0zeh0l"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847z4kf0zfc1l"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1847vgkf0zg0a3"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x18470gkf0zj5l0"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184evokf0zk9uh"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x18496okf0zkk67"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184d8wkf0zkvs0"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x18496okf0zllu3"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848g0kf0zn5tk"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184e9okf0znuux"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1842s8kf0zoije"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184a30kf0zpfn6"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184a78kf0zsewq"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848v8kf0zupws"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184edwkf0zvth6"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848pckf0zw87m"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184cfwkf0zx4tn"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1844yckf0zy89m"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1843f8kf100q62"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1849vckf106tgp"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184bx4kf108bwy"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1842ugkf109t16"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184bfwkf10aqrn"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1846egkf10cmn7"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184cdgkf10dngy"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1848w8kf10ials"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184co8kf10l9lb"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x1849mkkf10lboo"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184dcckf10lp5j"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x1847m4kf10m637"
+    },
+    {
+      "name": "Вакансии",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184bi8kf10n2sa"
+    },
+    {
+      "name": "Вакансии",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x1842c8kf10nr4w"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184edkkf10o6ji"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184dgkkf10pel0"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x1846uskf10pnzw"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184bq4kf10r5yk"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x1849m4kf10ryq9"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184bbwkf10snpf"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x18471okewiumyt",
+      "id": "86x184ds4kf10tep7"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x1843uwkf12tuau"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184e78kf13634g"
+    },
+    {
+      "name": "sdfsdf",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184c0skf137wv1"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x184d64kevemtzy",
+      "id": "86x184ecckf1381j2"
+    },
+    {
+      "name": "A. Zarayskaya",
+      "user_id": "86x1848rgkf10l61z",
+      "id": "86x184628kf139cjc"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x1848rgkf10l61z",
+      "id": "86x184d48kf139ejv"
+    },
+    {
+      "name": "Семен Зарайский",
+      "user_id": "86x1848rgkf10l61z",
+      "id": "86x184f4kkf139oyw"
     }
   ],
   "transactions": [
@@ -476,6 +1115,62 @@
       "sum": 23,
       "account_id": "86x18459wkey882fv",
       "created_at": "2020-09-11T12:39:19.036Z"
+    },
+    {
+      "id": "86x184cxwkf0tvjku",
+      "type": "INCOME",
+      "name": "Работа",
+      "sum": 1000,
+      "account_id": "86x184ffokf0tv5by",
+      "created_at": "2020-09-13T08:19:57.533Z"
+    },
+    {
+      "id": "86x184ey4kf0uiwqr",
+      "type": "INCOME",
+      "name": "sdfsdf",
+      "sum": 1,
+      "account_id": "86x184ffokf0tv5by",
+      "created_at": "2020-09-13T08:38:07.682Z"
+    },
+    {
+      "id": "86x184btkkf0w7bjf",
+      "type": "INCOME",
+      "name": "sdfsdf",
+      "sum": 214234,
+      "account_id": "86x184d54kf0vktup",
+      "created_at": "2020-09-13T09:25:06.218Z"
+    },
+    {
+      "id": "86x1846zwkf10m1el",
+      "type": "INCOME",
+      "name": "21234",
+      "sum": 123123,
+      "account_id": "86x184co8kf10l9lb",
+      "created_at": "2020-09-13T11:28:31.388Z"
+    },
+    {
+      "id": "86x18450okf10nn37",
+      "type": "INCOME",
+      "name": "A. Zarayskaya",
+      "sum": 223,
+      "account_id": "86x184co8kf10l9lb",
+      "created_at": "2020-09-13T11:29:46.146Z"
+    },
+    {
+      "id": "86x184cgokf10o43l",
+      "type": "EXPENSE",
+      "name": "23",
+      "sum": 3232,
+      "account_id": "86x184co8kf10l9lb",
+      "created_at": "2020-09-13T11:30:08.192Z"
+    },
+    {
+      "id": "86x184f9skf139l8x",
+      "type": "INCOME",
+      "name": "Семен Зарайский",
+      "sum": 435345,
+      "account_id": "86x184628kf139cjc",
+      "created_at": "2020-09-13T12:42:49.424Z"
     }
   ]
 }

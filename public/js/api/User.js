@@ -11,15 +11,15 @@ class User {
   
   static URL = '/user';
 
-  constructor(user) {
+  constructor(user, response1) {
     this.user = user;
+    this.response1 = response1;
   }
 
 
   static setCurrent(user) {
-    user = {id: this.user.id, name: this.user.name};
-    console.log(user);  
-    window.localStorage.user = `{"id":${user.id},"name":"${user.name}"}`;
+    user = this.user;
+    window.localStorage.user = JSON.stringify(user);
   }
 
   static unsetCurrent() {
@@ -27,7 +27,10 @@ class User {
   }
 
   static current() {
-    return this.user;
+    if(window.localStorage.user) {
+      return JSON.parse(window.localStorage.user);
+    }
+    
   }
 
   /**
@@ -41,9 +44,9 @@ class User {
       responseType: 'json',
       method: 'GET',
       callback: (response, err) => {
-
+        this.response1 = response;
       }
-   });
+   }, callback(this.response1));
   }
   /**
    * Производит попытку авторизации.
